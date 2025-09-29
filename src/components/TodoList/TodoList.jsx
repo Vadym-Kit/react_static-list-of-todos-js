@@ -1,5 +1,5 @@
 // eslint-disable-next-line import/no-cycle
-import { TodoInfo } from '../TodoInfo';
+import { TodoInfo } from '../TodoInfo/TodoInfo';
 
 export const TodoList = ({ todos }) => {
   if (!todos.length) {
